@@ -5,11 +5,11 @@ import PageWrapper from "../components/PageWrapper";
 import resumePDF from "../assets/sakunthaladevi-krishnan.pdf";
 
 export default function Resume() {
-  const resumeDriveLink =
-    "https://drive.google.com/file/d/1qkWP1yMRbNcPjH1jLxzK_RJyi-GPKwm1/view?usp=sharing";
+ // const resumeDriveLink =
+   // "https://drive.google.com/file/d/1qkWP1yMRbNcPjH1jLxzK_RJyi-GPKwm1/view?usp=sharing";
 
-  const resumeDownloadLink =
-    "https://drive.google.com/uc?export=download&id=1qkWP1yMRbNcPjH1jLxzK_RJyi-GPKwm1";
+  //const resumeDownloadLink =
+  //  "https://drive.google.com/uc?export=download&id=1qkWP1yMRbNcPjH1jLxzK_RJyi-GPKwm1";
 
   return (
     <PageWrapper>
@@ -80,7 +80,7 @@ export default function Resume() {
             {/* Download Resume */}
             <a
               className="btn cursor-hover glow-hover"
-              href={resumeDownloadLink}
+              href={resumePDF}
             >
               Download Resume <Download size={16} />
             </a>
