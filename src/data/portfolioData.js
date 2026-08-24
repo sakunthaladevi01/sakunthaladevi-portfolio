@@ -36,7 +36,8 @@ export const skills = {
   Backend: [
     { name: "Python", level: 88 },
     { name: "Django", level: 80 },
-    { name: "REST API", level: 76 },
+    { name: "REST API", level
+      : 76 },
   ],
   Database: [
     { name: "MySQL", level: 80 },
