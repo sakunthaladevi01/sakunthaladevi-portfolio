@@ -77,7 +77,7 @@ const infoRows = [
     icon: InstagramIcon,
     label: "Instagram",
     value: "@sakunthaladevi.dev",
-    href: "#",
+    href: "https://www.instagram.com/sktechservice",
   },
   {
     icon: MapPin,
