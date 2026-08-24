@@ -33,11 +33,13 @@ const projectTypeOptions = [
 ];
 
 const budgetOptions = [
-  "Not applicable",
-  "Under ₹500",
-  "₹500 – ₹1,500",
-  "₹1,500+",
-  "Let's discuss",
+  "Frontend Development",
+  "Backend Development",
+  "Full-Stack Development",
+  "Freelance Work",
+  "Software Development",
+  "Hiring Opportunity",
+  "Let's Discuss",
 ];
 
 const highlights = [
