@@ -70,7 +70,7 @@ export default function Resume() {
             {/* View Resume */}
             <a
               className="btn btn-primary cursor-hover glow-hover"
-              href={resumeDriveLink}
+              href={resumePDF}
               target="_blank"
               rel="noopener noreferrer"
             >
