@@ -1,4 +1,3 @@
-```jsx
 import { motion } from "framer-motion";
 import { Mail } from "lucide-react";
 import { Link } from "react-router-dom";
