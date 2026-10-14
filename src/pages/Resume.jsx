@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import { Download, Eye, FileText } from "lucide-react";
 import PageWrapper from "../components/PageWrapper";
-import resumePDF from "../assets/SAKUNTHALADEVI_RESUME (6).pdf";
+import resumePDF from "../assets/SAKUNTHALADEVI (1).pdf";
 
 export default function Resume() {
  // const resumeDriveLink =
