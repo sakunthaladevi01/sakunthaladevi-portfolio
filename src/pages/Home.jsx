@@ -15,7 +15,7 @@ import ErrorBoundary from "../components/ErrorBoundary";
 
 import { profile, projects, experience } from "../data/portfolioData";
 
-import resumePDF from "../assets/Sakunthaladevi_Resume.pdf";
+import resumePDF from "../assets/SAKUNTHALADEVI (1).pdf";
 import profilePhoto from "../assets/profile.jpeg";
 
 const container = {
