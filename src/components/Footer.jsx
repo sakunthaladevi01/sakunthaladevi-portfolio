@@ -1,5 +1,8 @@
+```jsx
 import { motion } from "framer-motion";
 import { Mail } from "lucide-react";
+import { Link } from "react-router-dom";
+
 import {
   GithubIcon,
   LinkedinIcon,
@@ -7,6 +10,7 @@ import {
   YoutubeIcon,
   TwitterIcon,
 } from "./BrandIcons";
+
 import { profile, socials } from "../data/portfolioData";
 
 const icons = {
@@ -32,19 +36,20 @@ const pages = [
 export default function Footer() {
   return (
     <footer className="footer">
-
       <div className="footer-grid">
 
         {/* BRAND */}
         <div className="footer-brand">
           <h3>
             Let's build something{" "}
-            <span className="gradient-text">worth shipping</span>
+            <span className="gradient-text">
+              worth shipping
+            </span>
           </h3>
 
           <p>
-            Python Full Stack Developer · open to entry-level and
-            internship roles.
+            Python Full Stack Developer · open to entry-level
+            and internship roles.
           </p>
 
           <a
@@ -61,29 +66,31 @@ export default function Footer() {
           <span className="footer-col-title">Pages</span>
 
           <div className="footer-pages-grid">
-
-            {/* 5 ITEMS */}
             <ul>
               {pages.slice(0, 5).map((p) => (
                 <li key={p.to}>
-                  <a href={p.to} className="cursor-hover">
+                  <Link
+                    to={p.to}
+                    className="cursor-hover"
+                  >
                     {p.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
 
-            {/* 4 ITEMS */}
             <ul>
               {pages.slice(5).map((p) => (
                 <li key={p.to}>
-                  <a href={p.to} className="cursor-hover">
+                  <Link
+                    to={p.to}
+                    className="cursor-hover"
+                  >
                     {p.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
-
           </div>
         </div>
 
@@ -121,7 +128,6 @@ export default function Footer() {
             })}
           </div>
         </div>
-
       </div>
 
       {/* BOTTOM */}
@@ -135,7 +141,7 @@ export default function Footer() {
           Crafted with React, Three.js, GSAP &amp; Framer Motion.
         </span>
       </div>
-
     </footer>
   );
 }
+```
